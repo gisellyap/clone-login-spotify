@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;400;500;600;700;800&family=Oswald:wght@200&family=Playfair+Display:wght@400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Trispace:wght@100&display=swap');
+*{
+    margin: 0 ;
+
+}
+body{
+   margin: 0 auto;
+   text-align: center;
+   font-family: 'Lexend Deca', sans-serif;
+   
+   
+    
+}
+.cabeçalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(107, 107, 107, 0.448);
+    font-size: 30px;
+    padding: 27px;
+    
+}.container{
+    display: inline-block;
+    max-width: 450px;
+   
+}
+.container-p{
+    font-weight: bold;
+    padding-top: 50px;
+    font-size: 13px;
+   
+}
+
+button{
+    border: 1px solid rgba(50, 50, 50, 0.448);
+    border-radius: 50px;
+    display: inline-flex;
+    justify-content: center;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+.container button{
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 48px;
+    padding: 13px 31px; 
+    margin-top: 10px;                                                                                            ;
+}
+.botao-face{
+    background: rgb(59, 89, 152);
+    color: white;
+    font-weight: bold;
+   
+}
+.botao-apple{
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+.botao-google{
+    background: white;
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+}
+.botao-continuar{
+    background: white;
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+}
+.facebook{
+    width: 25px;
+}
+.apple{
+    width: 25px;
+}
+.google{
+    width: 25px;
+}
+.meio-linha {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hr{
+    margin: 12px 0px 20px;
+    flex: 1 1 0%;
+    border-top: 1px solid rgb(217, 218, 220);
+}
+span{
+    flex: 0.3 1 0%;
+    align-self: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.usuario-senha label{
+    display: flex;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    
+}
+.usuario-senha input{
+    width: 450px;
+    height: 50px;
+    font-size: 15px;
+    
+}
+.pergunta-checkbox p{
+    text-align: justify;
+    padding-top: 15px;
+    font-size: 15px;
+    
+}
+.check-entrar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.check-entrar label{
+    font-size: 13px;
+}
+.check-entrar button{
+    width: 141px;
+    height: 48px ;
+    background: #1ED760;
+    border: 0;
+    font-weight: bold;
+
+}
+
+.footer button{
+    background-color: white;
+    color: rgb(107, 107, 107);
+    font-weight: bold;
+}
+.footer-p{
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 800px) {
+    .check-entrar {
+        display: inline;
+    }
+
+    .check-entrar div {
+        text-align: justify;
+    }
+
+    .check-entrar button {
+        width: 100%;
+    }
+
+    .cabeçalho {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid rgba(107, 107, 107, 0.448);
+        font-size: 22px;
+        padding: 12px;
+    }
+
+    .cabeçalho img {
+        width: 45px;
+    }
+    .container img{
+       display: none;
+    }
+
+
+}
