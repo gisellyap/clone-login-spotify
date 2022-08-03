@@ -39,6 +39,9 @@ button{
     font-family: 'Lexend Deca', sans-serif;
 
 }
+button:hover{
+    border: 1px solid black;
+}
 .container button{
     display: flex;
     align-items: center;
@@ -133,6 +136,11 @@ span{
     border: 0;
     font-weight: bold;
 
+}
+.check-entrar button:hover{
+    width: 145px;
+    height: 49px ;
+    
 }
 
 .footer button{
